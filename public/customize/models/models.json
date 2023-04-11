@@ -440,7 +440,7 @@
       "id": "texte_posture",
       "color": "#FC6541",
       "position": { "x": 297, "y": 763 },
-      "defaultText": "J'initie",
+      "defaultText": "Je transmets",
       "font": {
         "size": "50",
         "anchor": "middle",

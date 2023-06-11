@@ -21,9 +21,9 @@ function App() {
           <header>
             <h1>
               <Link to="/" style={{ textDecoration: "none", color: "#403b33" }}>
-                Générateur de visuels pour les{" "}
+                Générateur pour les{" "}
                 <span style={{ color: "#f35b36" }}>
-                  Open Badges de l'Aventure du Vivant
+                  Open Badges du Campus agricole Tracy Vire
                 </span>
               </Link>
             </h1>

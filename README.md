@@ -5,7 +5,7 @@ Ce projet intègre la notion de thème ( tout comme dans le projet original du D
 
 ## Licence
 
-Ce code source basé sur le projet [Générateur graphique d'open badge](https://github.com/Le-Dome-RDS/generateur-graphique-open-badge) est distribué sous licence libre (GPL v3).
+Ce code source basé sur le projet [Générateur graphique d'open badge](https://github.com/Le-Dome-RDS/generateur-graphique-open-badge) et [Générateur graphique d'open badge ea](https://github.com/incaya/generateur-graphique-open-badge-ea) est distribué sous licence libre (GPL v3).
 
 Voir le fichier LICENSE pour plus d'informations.
 

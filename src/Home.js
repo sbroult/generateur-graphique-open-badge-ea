@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { useHistory } from "react-router-dom";
 
-import LogoAventureVivant from "./img/aventure-vivant.jpg";
+import LogoTracy from "./img/LogoTracy.png";
 
 function Home() {
   const history = useHistory();
@@ -19,11 +19,7 @@ function Home() {
       </p>
       <p style={{ marginBottom: "35px" }}>
         <strong>
-          Ce générateur est une déclinaison pour l'enseignement agricole
-          proposée par le dispositif{" "}
-          <a href="https://acoustice.educagri.fr" title="acoustice">
-            acoustice
-          </a>
+	 Ce  générateur est une déclinaison pour le Campus agricole public Tracy Vire {" "}
           .
         </strong>
       </p>
@@ -88,8 +84,8 @@ function Home() {
       <p style={{ textAlign: "center" }}>
         <img
           style={{ width: "300px" }}
-          src={LogoAventureVivant}
-          alt="logo L'Aventure du Vivant"
+          src={LogoTracy}
+          alt="logo campus Tracy Vire"
         />
       </p>
     </>

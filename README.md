@@ -1,17 +1,11 @@
-# Générateur graphique d'open badge pour l'enseignement agricole
+# Générateur graphique d'open badge pour l'enseignement agricole adapté au campus agricole Tracy Vire 
 
 Cette application vous permet de naviguer parmi des modèles de visuels d'open badges et de les personnaliser.
+Ce projet intègre l'utilisation de la notion de thème ( tout comme dans le projet original du Dome ) absent dans la verison de l'enseignement agricole
 
 ## Licence
 
 Ce code source basé sur le projet [Générateur graphique d'open badge](https://github.com/Le-Dome-RDS/generateur-graphique-open-badge) est distribué sous licence libre (GPL v3).
 
 Voir le fichier LICENSE pour plus d'informations.
-
-## Contributeurs
-
-- [DGER / Ministère de l'Agriculture et de la Souveraineté Alimentaire](https://agriculture.gouv.fr/)
-- [AcousTICE](https://acoustice.educagri.fr)
-- [EDUTER-CNERTA / Institut Agro Dijon](https://eduter.fr/eduter-cnerta/)
-- [INCAYA](https://www.incaya.fr) (développement et maintenance)
 

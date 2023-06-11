@@ -1,25 +1,25 @@
 {
   "name": "generateur-graphique-open-badge-ea",
-  "description": "Générateur graphique d'open badge pour l'enseignement agricole",
+  "description": "Générateur graphique d'open badge pour le Campus agricole public Tracy Vire",
   "version": "0.1.0",
   "maintainers": [
     {
-      "name": "Incaya",
-      "email": "thomas.maziere@incaya.fr",
-      "web": "https://www.incaya.fr"
+      "name": "sbroult",
+      "email": "samuel.broult@educagri.fr",
+      "web": "https://badges.tracy-vire.fr"
     }
   ],
   "contributors": [
     {
-      "name": "Incaya",
-      "email": "thomas.maziere@incaya.fr",
-      "web": "https://www.incaya.fr"
+      "name": "sbroult",
+      "email": "samuel.broult@educagri.fr",
+      "web": "https://badges.tracy-vire.fr"
     }
   ],
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/incaya/generateur-graphique-open-badge-ea/"
+      "url": "https://github.com/sbroult/generateur-graphique-open-badge-ea-tracy/"
     }
   ],
   "licenses": [
@@ -28,7 +28,7 @@
       "url": "http://www.gnu.org/licenses/gpl-3.0.html"
     }
   ],
-  "homepage": "https://openbadges.educagri.fr/generateur",
+  "homepage": "https://badges.tracy-vire.fr",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -38,7 +38,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^5.0.1",
     "react-tooltip": "^4.2.11",
     "web-vitals": "^0.2.4"
   },
@@ -65,5 +65,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/cli": "^7.0.0"
   }
 }

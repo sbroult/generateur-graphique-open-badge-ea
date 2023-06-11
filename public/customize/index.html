@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-  <title>Générateur de visuels pour les Open Badges de l'Aventure du Vivant</title>
+  <title>Générateur pour les Open Badges du Campus agricole Tracy Vire</title>
   <link rel="icon" href="../favicon.ico" />
   <meta charset="utf-8" />
   <link rel="stylesheet" href="./css/customize.css" />
@@ -26,7 +26,7 @@
             <span style="text-decoration: none; color: #403b33;">
               Générateur de visuels pour les</span>
             <span style="color: #f35b36;">
-              Open Badges de l'Aventure du Vivant
+              Open Badges du Campus agricole Tracy Vire
             </span>
           </h1>
         </a>
@@ -106,17 +106,17 @@
                   <input type="color" id="couleur_1" value="#ffffff" />
                   <label for="couleur_1">couleur 1 : logo et titre principal</label>
                 </p>
-                <!-- <p>
+                 <p>
                   <input type="color" id="couleur_2" value="#473467" />
-                  <label for="couleur_2">couleur 2 : picto, texte et filet "catégorie"</label>
-                </p> -->
+                  <label for="couleur_2">couleur 2 : picto theme et filet</label>
+                </p>
                 <p>
                   <input type="color" id="couleur_3" value="#009eb9" />
-                  <label for="couleur_3">couleur 2 : fond</label>
+                  <label for="couleur_3">couleur 3 : fond</label>
                 </p>
                 <p>
                   <input type="color" id="couleur_4" value="#000000" />
-                  <label for="couleur_4">couleur 3 : catégorie et posture</label>
+                  <label for="couleur_4">couleur 4 : catégorie et posture</label>
                 </p>
               </div>
 
@@ -133,7 +133,7 @@
                   Appliquer au pictogramme&nbsp;
                   <select id="picto-layer-id">
                     <option value="10">Principal</option>
-                    <!-- <option value="32">Thème</option> -->
+                    <option value="32">Thème</option>
                   </select>
                 </p>
               </div>
@@ -216,7 +216,7 @@
                   Appliquer à
                   <select id="text-layer-id">
                     <option value="11">Titre du badge</option>
-                    <!-- <option value="31">Thème</option> -->
+                   <!-- <option value="31">Thème</option> -->
                     <option value="42">Posture</option>
                   </select>
                 </p>
@@ -286,12 +286,10 @@
       <footer>
         <div id="footer-content">
           <p>
-            Réalisation <a href="https://incaya.fr/" title="lien site web INCAYA">
-              INCAYA
-            </a> - financement <a href="https://agriculture.gouv.fr/enseignement-technique-avant-le-bac"
-              title="lien DGER, Ministère de l'Agriculture">
-              DGER/MASA
-            </a>
+            Source projet <a href="https://github.com/sbroult/generateur-graphique-open-badge-ea-tracy" title="lien source generateur">
+              github
+            </a> - site web <a href="https://www.tracy-vire.fr" target="_blank"> www.tracy-vire.fr </a>
+            </a> - campus numérique <a href="https://campus.tracy-vire.fr" target="_blank"> campus.tracy-vire.fr </a>
           </p>
         </div>
       </footer>
@@ -380,14 +378,15 @@
           customBadge.setColor(10, color);
           customBadge.setColor(11, color);
         });
-      // document
-      //   .getElementById("couleur_2")
-      //   .addEventListener("change", function (e) {
-      //     var color = e.target.value;
-      //     // customBadge.setColor(40, color);
-      //     // customBadge.setColor(41, color);
+       document
+         .getElementById("couleur_2")
+         .addEventListener("change", function (e) {
+           var color = e.target.value;
+            customBadge.setColor(20, color);
+            customBadge.setColor(32, color);
+            customBadge.setColor(21, color);
       //     customBadge.setColor(42, color);
-      //   });
+        });
       document
         .getElementById("couleur_3")
         .addEventListener("change", function (e) {
@@ -617,9 +616,9 @@
       const color1 = document.getElementById("couleur_1");
       color1.value = "#" + colors[0];
       color1.dispatchEvent(new CustomEvent("change", { bubbles: true }));
-      // const color2 = document.getElementById("couleur_2");
-      // color2.value = "#" + colors[1];
-      // color2.dispatchEvent(new CustomEvent("change", { bubbles: true }));
+       const color2 = document.getElementById("couleur_2");
+       color2.value = "#" + colors[1];
+       color2.dispatchEvent(new CustomEvent("change", { bubbles: true }));
       const color3 = document.getElementById("couleur_3");
       color3.value = "#" + colors[4];
       color3.dispatchEvent(new CustomEvent("change", { bubbles: true }));

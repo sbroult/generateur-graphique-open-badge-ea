@@ -1,7 +1,7 @@
 # Générateur graphique d'open badges pour l'enseignement agricole adapté au campus agricole Tracy Vire 
 
 Cette application vous permet de naviguer parmi des modèles de visuels d'open badges et de les personnaliser.
-Ce projet intègre la notion de thème ( tout comme dans le projet original du Dome ) absente dans la verison de l'enseignement agricole.
+Ce projet intègre la notion de thème ( tout comme dans le projet original du Dome ) absente dans la version de l'enseignement agricole.
 
 ## Licence
 
